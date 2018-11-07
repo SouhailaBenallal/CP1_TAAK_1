@@ -12,5 +12,9 @@ void drawLines(){
    line(x,150,x,800);
    x = x + randomGaussian()*10;
    line(x,200,x,300 + random(-20,20));
+  textSize(width/20);
+  fill(255);
+   text("Written by Souhaila", width/2 - 110, height - 20);
 }
+
 }
